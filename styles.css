@@ -1,0 +1,123 @@
+html {
+/*font-family: 'Nerko One', cursive;*/
+font-family: 'Noto Sans Mende Kikakui', sans-serif;
+font-size: 20px;  
+}
+
+header {
+text-align: center;
+background-color: rgba(152, 88, 9, .25);
+top: 0;
+height: 170px;
+width: 100%;
+align-items: center;
+
+}
+
+h1 {
+padding-top: 1px;
+color:rgb(238, 221, 199);
+font-size: 3rem;
+}
+
+.navbar {
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    width: 75%;
+    margin: -30px auto 3px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 180px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-image: url("/images/IMG_9973.jpg")
+   }
+
+#vision {
+    display: flex;
+    height: 400px;
+    background-color:rgba(152, 88, 9, .25)
+    
+}
+
+.content {
+    margin: auto;
+    background-color: antiquewhite;
+    width: 70%;
+    text-align: center;
+    color:rgb(37, 24, 7);
+    border-radius: 5px;
+    border: 3px solid brown;
+}
+
+#products {
+    height: 700px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.oils {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    background-color: antiquewhite;
+}
+
+.oil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oil img {
+    width: auto;
+    height: 300px;
+    padding: 10px;
+}
+
+#team {
+    text-align: center;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    padding-top: 30px;
+    height: 800px;
+}
+
+
+.team-content {
+    background-color: rgba(152, 88, 9, .25);
+    margin: 100px auto;
+    background-color: antiquewhite;
+    width: 97%;
+    text-align: center;
+    color: rgb(37, 24, 7);
+    border-radius: 5px;
+    border: 3px solid brown;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+    height: 500px;
+}
+
+.teampics img {
+    height: 300px;
+    width: auto;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+}
